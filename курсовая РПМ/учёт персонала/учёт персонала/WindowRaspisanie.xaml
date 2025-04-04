@@ -1,0 +1,41 @@
+﻿<Window x:Class="учёт_персонала.WindowRaspisanie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:учёт_персонала"
+        mc:Ignorable="d"
+        Title="WindowRaspisanie" Height="450" Width="800"
+        WindowState="Maximized"
+        WindowStyle="None" Loaded="Window_Loaded">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image Source="C:\Users\User\Desktop\курсовая РПМ\визуал\фон расписание.jpg" Height="Auto" Width="Auto" Grid.ColumnSpan="3" Grid.RowSpan="6"/>
+        <DataGrid AutoGenerateColumns="False" x:Name="TABLERaspisanie" Grid.Column="0"  Grid.Row="1" Grid.ColumnSpan="3" Opacity="0.7" Background="Gray">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Number}" Header="Номер" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Podrazdelenie}" Header="Подразделение" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Dolznost}" Header="Должность" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Kol_vo}" Header="Кол-во сотрудников" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Tarif}" Header="Тарифная ставка, руб" Width="Auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="Nazad3" Content="Назад" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="Nazad3_Click"/>
+        <Button x:Name="updateButton_Rasp" Content="Обновить" Grid.Row="2" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="updateButton_Rasp_Click"/>
+        <Button x:Name="deleteButton_Rasp" Content="Удалить" Grid.Row="2" Grid.Column="1" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="deleteButton_Rasp_Click"/>
+        <StackPanel Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox x:Name="tb_Poisk" Width="500" Height="30"/>
+            <Button x:Name="Poisk" Content="Поиск" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="Poisk_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

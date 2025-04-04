@@ -1,0 +1,59 @@
+create procedure [dbo].[INSERTLogins]
+	@Parol nvarchar(50),
+	@Email nvarchar(100),
+	@Login nvarchar(50),
+	@Id int out
+as
+	insert into Logins1(Login,Parol,Email)
+	values (@Login,@Parol,@Email)
+
+	set @Id=SCOPE_IDENTITY()
+
+GO
+
+-- ================================================
+
+CREATE PROCEDURE [dbo].[INSERTRas]
+	@Num int,
+    @Podrazdelenie nvarchar(100),
+    @Dolznost nvarchar(50),
+    @Kol_vo int,
+    @Tarif float,
+    @Id int out
+AS
+    INSERT INTO Raspisanie(Num,Podrazdelenie, Dolznost, Kol_vo, Tarif)
+    VALUES (@Num,@Podrazdelenie, @Dolznost, @Kol_vo, @Tarif)
+   
+    SET @Id=SCOPE_IDENTITY()
+GO
+
+-- ================================================
+CREATE PROCEDURE [dbo].[INSERTVac]
+    @Number int,
+    @Dolznost nvarchar(50),
+    @Uslovia nvarchar(500),
+    @Id int out
+AS
+    INSERT INTO Vacansii(Number,Dolznost,Uslovia)
+    VALUES (@Number, @Dolznost, @Uslovia)
+   
+    SET @Id=SCOPE_IDENTITY()
+GO
+
+-- ================================================
+CREATE PROCEDURE [dbo].[INSERTRez]
+    @Number int,
+	@FIO nvarchar(50),
+    @Dolznost nvarchar(50),
+    @Num_Vac int,
+	@Ssilka nvarchar(100),
+    @Id int out
+AS
+    INSERT INTO Rezume(Num,FIO,Dolznost,Num_Vac,Ssilka)
+    VALUES (@Number, @FIO,@Dolznost,@Num_Vac,@Ssilka)
+   
+    SET @Id=SCOPE_IDENTITY()
+GO
+
+-- ================================================
+C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\Kursa4.mdf

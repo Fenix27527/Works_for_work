@@ -1,0 +1,58 @@
+﻿<Window x:Class="учёт_персонала.WindowVacansii"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:учёт_персонала"
+        mc:Ignorable="d"
+        Title="WindowVacansii" Height="450" Width="800"
+        WindowState="Maximized"
+        WindowStyle="None" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image Source="C:\Users\User\Desktop\курсовая РПМ\визуал\фон вакансии.jpg" Height="Auto" Width="Auto" Grid.ColumnSpan="3" Grid.RowSpan="6"/>
+        <Button Name="Nazad2" Content="Назад" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="Nazad2_Click"/>
+        <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="updateButton_Vac" Content="Обновить" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="updateButton_Vac_Click"/>
+            <Button x:Name="deleteButton_Vac" Content="Удалить" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="deleteButton_Vac_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="updateButton_Vac2" Content="Обновить" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="updateButton_Rez_Click"/>
+                <Button x:Name="deleteButton_Vac2" Content="Удалить" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="deleteButton_Rez_Click"/>
+            </StackPanel>
+        </StackPanel>
+        <Label Name="labVac" Content="Вакансии" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White">
+        </Label>
+        <Label Name="labVac2" Content="Резюме" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+        <DataGrid AutoGenerateColumns="False" x:Name="TABLEVacansii" Grid.Column="0"  Grid.Row="2" Opacity="0.7" Background="LightGray">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Number}" Header="Номер" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Dolznost}" Header="Должность" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Uslovia}" Header="Условия" Width="Auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid AutoGenerateColumns="False" x:Name="TABLERezume" Grid.Column="1"  Grid.Row="2" Opacity="0.7" Background="LightGray">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Number}" Header="Номер" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding FIO}" Header="ФИО" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Dolznost}" Header="Должность" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Num_Vac}" Header="№Вакансии" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Ssilka}" Header="Ссылка" Width="Auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox x:Name="tb_Poisk" Width="500" Height="30"/>
+            <Button x:Name="Poisk" Content="Поиск" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="Poisk_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

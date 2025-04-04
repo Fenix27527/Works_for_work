@@ -1,0 +1,20 @@
+H:\с# задачи\WSA\приложения\Крестики-нолики\Крестики-нолики\bin\Debug\Крестики-нолики.exe.config
+H:\с# задачи\WSA\приложения\Крестики-нолики\Крестики-нолики\bin\Debug\Крестики-нолики.exe
+H:\с# задачи\WSA\приложения\Крестики-нолики\Крестики-нолики\bin\Debug\Крестики-нолики.pdb
+H:\с# задачи\WSA\приложения\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики-нолики.csproj.AssemblyReference.cache
+H:\с# задачи\WSA\приложения\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики_нолики.Form1.resources
+H:\с# задачи\WSA\приложения\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики_нолики.Properties.Resources.resources
+H:\с# задачи\WSA\приложения\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики-нолики.csproj.GenerateResource.cache
+H:\с# задачи\WSA\приложения\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики-нолики.csproj.CoreCompileInputs.cache
+H:\с# задачи\WSA\приложения\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики-нолики.exe
+H:\с# задачи\WSA\приложения\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики-нолики.pdb
+C:\Users\User\Works_for_work\Works_for_work\Крестики-нолики\Крестики-нолики\bin\Debug\Крестики-нолики.exe.config
+C:\Users\User\Works_for_work\Works_for_work\Крестики-нолики\Крестики-нолики\bin\Debug\Крестики-нолики.exe
+C:\Users\User\Works_for_work\Works_for_work\Крестики-нолики\Крестики-нолики\bin\Debug\Крестики-нолики.pdb
+C:\Users\User\Works_for_work\Works_for_work\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики-нолики.csproj.AssemblyReference.cache
+C:\Users\User\Works_for_work\Works_for_work\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики_нолики.Form1.resources
+C:\Users\User\Works_for_work\Works_for_work\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики_нолики.Properties.Resources.resources
+C:\Users\User\Works_for_work\Works_for_work\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики-нолики.csproj.GenerateResource.cache
+C:\Users\User\Works_for_work\Works_for_work\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики-нолики.csproj.CoreCompileInputs.cache
+C:\Users\User\Works_for_work\Works_for_work\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики-нолики.exe
+C:\Users\User\Works_for_work\Works_for_work\Крестики-нолики\Крестики-нолики\obj\Debug\Крестики-нолики.pdb

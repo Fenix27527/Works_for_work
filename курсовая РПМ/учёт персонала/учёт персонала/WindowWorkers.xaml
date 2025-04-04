@@ -1,0 +1,46 @@
+﻿<Window x:Class="учёт_персонала.WindowWorkers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:учёт_персонала"
+        Title="WindowRab" Height="450" Width="800"
+        WindowState="Maximized"
+        WindowStyle="None" Loaded="Window_Loaded">
+  <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image Source="C:\Users\User\Desktop\курсовая РПМ\визуал\фон персонал.jpg" Height="Auto" Width="Auto" Grid.ColumnSpan="3" Grid.RowSpan="6"/>
+        <Border>
+            <Button Name="But_Nazad1" Content="Назад" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="But_Nazad1_Click"/>
+        </Border>
+        <DataGrid AutoGenerateColumns="False" x:Name="TABLEPersonal" Grid.Column="0"  Grid.Row="1" Grid.ColumnSpan="3" Opacity="0.7" Background="DarkSlateGray">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Number}" Header="Номер" Width="Auto" />
+                <DataGridTextColumn Binding="{Binding FIO}" Header="ФИО" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Podrazdelenie}" Header="Подразделение" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Dolznost}" Header="Должность" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding INN}" Header="ИНН" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Adres}" Header="Адрес" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Data_priema}" Header="Дата приёма" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Semia}" Header="Семья" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Obrazovanie}" Header="Образование" Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Nagradi}" Header="Награды" Width="Auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="updateButton_Per" Content="Обновить" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="updateButton_Per_Click"  Grid.Row="2" Grid.Column="0"/>
+        <Button x:Name="deleteButton_Per" Content="Удалить" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="deleteButton_Per_Click"  Grid.Row="2" Grid.Column="1"/>
+        <StackPanel Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox x:Name="tb_Poisk" Width="500" Height="30"/>
+            <Button x:Name="Poisk" Content="Поиск" FontSize="15" FontWeight="Bold" Width="100" Height="30" Click="Poisk_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

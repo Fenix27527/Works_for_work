@@ -1,0 +1,37 @@
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\учёт персонала.exe.config
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\учёт персонала.exe
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\учёт персонала.pdb
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\учёт персонала.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\App.g.cs
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\учёт персонала_MarkupCompile.cache
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\учёт персонала_MarkupCompile.lref
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\учёт персонала.g.resources
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\учёт_персонала.Properties.Resources.resources
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\учёт персонала.csproj.GenerateResource.cache
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\учёт персонала.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\учёт персонала.exe
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\учёт персонала.pdb
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\WindowWorkers.g.cs
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\WindowWorkers.baml
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\WindowVacansii.g.cs
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\WindowVacansii.baml
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\WindowRaspisanie.g.cs
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\WindowRaspisanie.baml
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\WindowMenu.g.cs
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\WindowMenu.baml
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\____ ___.3B2D359D.Up2Date
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\SQLDatabase.Net.dll
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\MaterialDesignColors.dll
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\bin\Debug\MaterialDesignColors.pdb
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\Registracia.g.cs
+C:\Users\User\Desktop\курсовая РПМ\учёт персонала\учёт персонала\obj\Debug\Registracia.baml
